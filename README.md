@@ -47,7 +47,7 @@ Usage of ecs-down:
 ```
 
 ## Examples
-Scale down `gql-production` to 210 instances in batches of 20. `c6gd.16xlarge` container instances are selected for termination first.
+Scale down `box-production` to 210 instances in batches of 20. `c6gd.16xlarge` container instances are selected for termination first.
 ```
 ecs-down -asg prod-gql -batch-size 20 -cluster gql-production -service gql-production -desired-count 210
 ```
